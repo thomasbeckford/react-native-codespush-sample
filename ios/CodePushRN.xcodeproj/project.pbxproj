@@ -43,6 +43,7 @@
 		638A7D2CC738E89DF13EF6D3 /* Pods-CodePushRN-CodePushRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePushRN-CodePushRNTests.release.xcconfig"; path = "Target Support Files/Pods-CodePushRN-CodePushRNTests/Pods-CodePushRN-CodePushRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		808C3A603770C1B2C675EED1 /* Pods-CodePushRN.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePushRN.staging.xcconfig"; path = "Target Support Files/Pods-CodePushRN/Pods-CodePushRN.staging.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CodePushRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1D3D3DA267254BB0088DF29 /* CodePush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CodePush.h; path = "../node_modules/react-native-code-push/ios/CodePush/CodePush.h"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED85DD3531EF985E3DC16827 /* libPods-CodePushRN-CodePushRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodePushRN-CodePushRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BE1F7C583CBE97481F5FFE /* libPods-CodePushRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodePushRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +102,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1D3D3DA267254BB0088DF29 /* CodePush.h */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				F0BE1F7C583CBE97481F5FFE /* libPods-CodePushRN.a */,
 				ED85DD3531EF985E3DC16827 /* libPods-CodePushRN-CodePushRNTests.a */,
